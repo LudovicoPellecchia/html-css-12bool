@@ -1,0 +1,48 @@
+[class*="col-"]{
+    min-height: 10px;
+    background-color: rgb(187, 120, 57);
+}
+
+.tuner{
+    min-height: 10px;
+    background-color: rgb(221, 221, 221);
+}
+
+.paletta{
+    background-color: rgb(230, 229, 229);
+}
+
+.tastiera{
+    min-height: 20px;
+    background-color: #584F50;
+    border-bottom: 5px solid  rgb(218, 217, 217) ;
+}
+
+.container{
+    padding: 80px;
+    max-width: 385px;
+}
+
+.holebg{
+    
+    background-color: #584F50;
+}
+
+.body-left{
+    border-top-left-radius: 100px;
+}
+
+.body-right{
+    border-top-right-radius: 100px;
+}
+
+.body-bottom-left{
+    border-bottom-left-radius: 100px;
+}
+.body-bottom-right{
+    border-bottom-right-radius: 100px ;
+}
+
+.saddle{
+    background-color: rgb(122, 71, 29);
+}
