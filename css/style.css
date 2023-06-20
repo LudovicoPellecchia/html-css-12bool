@@ -1,0 +1,19 @@
+[class*="col-"] {
+    background-color: rgb(0, 162, 255);
+    height: 100px;
+    border: 1px solid white;
+    position: relative;
+}
+
+.col-1::after{
+    content: "1 col";
+    color: white;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+
+.nested{
+    background: greenyellow;
+}
