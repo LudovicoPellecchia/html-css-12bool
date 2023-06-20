@@ -1,8 +1,12 @@
-[class*="col-"] {
+.col, [class*="col-"] {
     background-color: rgb(0, 162, 255);
-    height: 100px;
+    min-height: 100px;
     border: 1px solid white;
     position: relative;
+}
+
+.col>.row, [class*="col-"] > .row{
+    padding: 1rem;
 }
 
 .col-1::after{
@@ -14,6 +18,12 @@
     transform: translate(-50%, -50%);
 }
 
+
+
 .nested{
     background: greenyellow;
+}
+
+section{
+    margin-bottom: 2rem;
 }
